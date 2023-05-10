@@ -1,5 +1,9 @@
-import Image from "next/image";
+import LoginButton from "@/components/LoginButton";
+import Link from "next/link";
 
 export default function Home() {
-	return <main></main>;
+	return <main>
+		<LoginButton />
+		<Link href="profile">Profile</Link>
+	</main>;
 }
